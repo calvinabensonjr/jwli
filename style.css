@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+}
+
+header ul li {
+  list-style-type: none;
+  display:inline;
+}
+
+nav ul li {
+  list-style-type: none;
+  background-color: white;
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding-left: 7%;
+}
+
+nav ul li button {
+  background-color: black;
+  color: white;
+  width: 14%;
+  margin-left: 7%;
+
+}
+
+.top section:first-of-type img:first-of-type {
+  width: 16.6666%;
+}
+
+.top {
+  background-color: #F1F4F6;
+  text-align: center;
+  color: black;
+  width: 100%;
+  float: left;
+}
+
+.top section{
+  float: left;
+  width: 40%;
+}
+.top section:first-of-type img{
+  width: 100%;
+}
+
+.top section:first-of-type {
+  width: 60%;
+}
+
+.top section form button {
+  width: 14%;
+  background-color: #BAC7D0;
+}
+
+.top section input {
+  width:20%;
+}
+
+/* .top section{
+
+} */
+
+
+.logo {
+  height: 50px;
+}
+
+.user {
+  height: 198px;
+}
+
+.second {
+  background-color: white;
+  color: black;
+  padding: 50px 0;
+  clear: both;
+  text-align: center;
+}
+
+.second ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 3%;
+  margin: 0;
+}
+
+/* history */
+
+.history {
+  background-color: #F1F4F6;
+}
+
+
+.history section {
+  float: left;
+  background-color: #F2F3F5;
+  width: 50%;
+
+}
+
+.history section:first-of-type {
+  width: 50%;
+  padding: 10px 10%;
+}
+
+.history section img {
+  float: left;
+  /* height: 150px; /**/ */
+  width: 50%;
+  padding-top: 10px;
+}
+
+.history section span {
+  float: left;
+  width: 100%;
+  padding: 10px 23%;
+}
+
+.who {
+  background-color: white;
+  color: black;
+  float: left;
+}
+
+.who section:first-of-type{
+  width:30%;
+  float:left;
+  padding-left: 12%;
+}
+
+
+.who section p {
+padding-right: 15%;
+}
+
+
+.orgDad {
+  float: left;
+}
+
+.org {
+  width: 50%;
+  float: left;
+  padding: 5px 5%;
+}
+
+.org img {
+  width: 50%;
+  height: 75px;
+}
+
+.newsletter {
+background-color: #BAC7D0;
+clear: both;
+margin: 0;
+}
+
+.newsletter p {
+  width: 50%;
+  float:left;
+  padding: 10px 10% 0 10%;
+  background-color: #BAC7D0;
+  color:white;
+  margin: 0;
+}
+
+.newsletter form {
+  float: left;
+  padding: 15px 0 0 3%;
+  background-color: #BAC7D0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.copy p {
+  display: inline-block;
+  width: 50%;
+  padding-left: 10%;
+}
+
+.copy{
+  margin: 0;
+  float: left;
+  width: 100%;
+  background-color: #909DA5;
+  color: white;
+}
+
+.copy ul {
+  text-decoration: none;
+  display: inline-block;
+  width: 40%;
+  padding-left: 9%;
+}
+
+.copy ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 6%;
+
+}
+
+footer {
+  background-color: #909DA5;
+  color: white;
+  float: left;
+  display: table;
+  width: 100%;
+  padding-left: 5%;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+footer > section {
+  display: table-cell;
+  padding: 0;
+}
+
+.last ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 4%;
+}
+
+
+footer h3 {
+  font-weight: bolder;
+  margin: 0;
+}
+
+article {
+  width: 100%;
+}
+
+.mobileOnly {
+  display:none;
+}
+
+
+.fa-bars:before {
+    content: "\f0c9";
+    display: none;
+}
+
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .top section input {
+    width:35%;
+  }
+
+  .history section:first-of-type {
+    padding: 0;
+    width: 100%;
+  }
+
+.history section {
+  width:100%;
+}
+
+
+.history section img {
+  float: left;
+  height: 150px;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.history section span {
+  float: left;
+  width: 100%;
+  padding: 10px 23%;
+}
+
+article {
+  width: 50%;
+  float: left;
+  padding-left: 10%;
+}
+
+.who section:first-of-type {
+  padding: 0%;
+}
+
+
+.copy ul {
+  width: 45%;
+}
+}
+
+/* for mobile */
+@media only screen and (max-width: 767px) {
+  .mobileHide{
+  display: none;
+  }
+
+  .history section:first-of-type {
+    width: 100%;
+}
+
+.who section {
+  float: left;
+  width:
+}
+
+.top section:first-of-type {
+  width: 100%;
+}
+
+header ul li{
+  display:inline;
+  list-style-type: none;
+}
+
+
+.mobileOnly{
+  display: inline;
+}
+.who {
+  padding: 10px 10%;
+}
+
+.org {
+  padding: none;
+  width:100%;
+}
+
+header button {
+  margin-left: 75%;
+  width: 14%;
+  background-color: #BAC7D0;
+
+}
+
+.copy {
+  font-size: .5em;
+}
+
+footer {
+  display: none;
+}
+
+
+.fa-bars:before {
+    content: "\f0c9";
+    display: inline;
+}
+
+
+.history{
+  display: none;
+}
+
+img{
+  display: none;
+}
+
+.who h3,span,p{
+  display: none;
+}
+
+
+.moveIt{
+  display: none;
+}
+
+.gone{
+  display: none;
+}
+
+}
+
+}
